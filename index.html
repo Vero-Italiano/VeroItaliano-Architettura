@@ -256,9 +256,9 @@ var translations = {
     "l0.b1.h": "Exporters / Producers",
     "l0.b1.p": "Upload invoices, lot records, shipping and customs documents. Free or low-cost onboarding to maximize participation.",
     "l0.b2.h": "Consortiums / Registries",
-    "l0.b2.p": "DOP/IGP membership records, business and land registries, customs authorities. Queried, not uploaded to.",
+    "l0.b2.p": "DOP/IGP membership records, business and land registries, customs authorities. Italy's official registers (SIAN, ICQRF) have no public APIs, so Phase 1 relies on the EU's open e-Ambrosia register plus seeded consortium member lists rather than live registry API agreements.",
     "l0.b3.h": "Satellite / Agronomic Providers",
-    "l0.b3.p": "Third-party imagery and yield-modeling data feeds (e.g. Sentinel/Planet-style providers, agronomic model vendors).",
+    "l0.b3.p": "Copernicus Sentinel-2 via the Copernicus Data Space Ecosystem, free and open-access, 10m resolution refreshed every 5 days. NDVI and reflectance are queried directly by coordinates with no raster download and 1-2 second latency, cached like existing geofence checks. Yield benchmarks come from ISMEA's regional tables by province and crop.",
 
     "l1.label": "1. Ingestion layer",
     "l1.b1.h": "Producer portal",
@@ -275,7 +275,7 @@ var translations = {
 
     "l3.label": "3. Evidence and reconciliation layer",
     "l3.b1.h": "Registry / customs cross-check",
-    "l3.b1.p": "Confirms legal identity, land ownership and declared trade flows against independent public records.",
+    "l3.b1.p": "Confirms legal identity, land ownership and declared trade flows against independent public records, drawing on the EU e-Ambrosia register and seeded consortium data rather than direct SIAN/ICQRF API access in Phase 1.",
     "l3.b2.h": "Consortium / DOP-IGP check",
     "l3.b2.p": "Confirms designation eligibility and production-zone compliance.",
     "l3.b3.h": "Satellite / agronomic yield model",
@@ -330,9 +330,9 @@ var translations = {
     "l0.b1.h": "Esportatori / Produttori",
     "l0.b1.p": "Caricano fatture, registri di lotto, documenti di spedizione e doganali. Onboarding gratuito o a basso costo per massimizzare la partecipazione.",
     "l0.b2.h": "Consorzi / Registri",
-    "l0.b2.p": "Registri di appartenenza DOP/IGP, registri delle imprese e catastali, autorita doganali. Vengono interrogati, non ricevono caricamenti.",
+    "l0.b2.p": "Registri di appartenenza DOP/IGP, registri delle imprese e catastali, autorita doganali. I registri ufficiali italiani (SIAN, ICQRF) non hanno API pubbliche, quindi la Fase 1 si basa sul registro aperto e-Ambrosia dell'UE e su elenchi di iscritti ai consorzi precaricati, anziche su accordi API di registro in tempo reale.",
     "l0.b3.h": "Fornitori Satellitari / Agronomici",
-    "l0.b3.p": "Flussi di dati di imagery e modellazione della resa da terze parti (ad esempio fornitori in stile Sentinel/Planet, fornitori di modelli agronomici).",
+    "l0.b3.p": "Copernicus Sentinel-2 tramite il Copernicus Data Space Ecosystem, gratuito e ad accesso aperto, risoluzione di 10m aggiornata ogni 5 giorni. NDVI e riflettanza vengono interrogati direttamente per coordinate, senza scaricare immagini raster, con una latenza di 1-2 secondi, memorizzati nella cache come i controlli di geofence esistenti. I benchmark di resa provengono dalle tabelle regionali di ISMEA per provincia e coltura.",
 
     "l1.label": "1. Livello di acquisizione",
     "l1.b1.h": "Portale produttore",
@@ -349,7 +349,7 @@ var translations = {
 
     "l3.label": "3. Livello di evidenza e riconciliazione",
     "l3.b1.h": "Verifica incrociata con registri / dogana",
-    "l3.b1.p": "Conferma l'identita legale, la proprieta del terreno e i flussi commerciali dichiarati rispetto a registri pubblici indipendenti.",
+    "l3.b1.p": "Conferma l'identita legale, la proprieta del terreno e i flussi commerciali dichiarati rispetto a registri pubblici indipendenti, basandosi sul registro e-Ambrosia dell'UE e su dati di consorzio precaricati anziche sull'accesso diretto alle API di SIAN/ICQRF nella Fase 1.",
     "l3.b2.h": "Verifica consorzio / DOP-IGP",
     "l3.b2.p": "Conferma l'idoneita alla denominazione e la conformita alla zona di produzione.",
     "l3.b3.h": "Modello di resa satellitare / agronomico",
